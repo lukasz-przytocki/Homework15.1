@@ -17,7 +17,7 @@ public class GetMap {
         return countryMap;
     }
 
-    private Country countryFiller(String[] line) throws FileNotFoundException {
+    private Country countryFiller(String[] line){
         Country country = new Country(line[0],line[1],Integer.valueOf(line[2]));
         return country;
         }
